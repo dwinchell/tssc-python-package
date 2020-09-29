@@ -261,7 +261,7 @@ class StepImplementer(ABC): # pylint: disable=too-many-instance-attributes
         Wrapper for running the implemented step.
         """
 
-        StepImplementer.__print_section_title(f"Step Start - {self.step_name}")
+        StepImplementer.__print_section_title(f"Step Start - {self.step_name} - dwinchell/tssc-python-package:main")
 
         # print information about theconfiguration
         StepImplementer.__print_section_title(
